@@ -5,12 +5,12 @@ Proyecto final del curso Arquitectura del Computador I 2026-2
 ## Descripción del proyecto
 El siguiente proyecto consiste en un sistema embebido IoT desarrollado sobre la plataforma **RaspBerry Pi Pico 2 W** para automatizar el llenado de un tanque elevado, prevenir daños en la electrobomba y monitorear el consumo diario de agua en tiempo real.
 
-##Problema que resuelve
+## Problema que resuelve
 - **Desbordes hídricos:** Detiene automáticamente la electrobomba cuando el nivel del agua alcanza el límite superior, evitando desperdicio hídrico y daños estructurales.
 - **Protección contra marcha en seco:** Verifica el flujo real en la tubería mediante un caudalímetro; si la bomba opera sin paso de agua se apaga inmediatamente y emite una alerta.
 - **Telemetría y consumo:** Registra los litros consumidos diariamente y envía alertas a la nube ante cortes de suministro o fallas.
 
-##Arquitectura y componentes
+## Arquitectura y componentes
 * **Microcontrolador:** Raspberry Pi Pico 2 W (RP2350) programado en **MicroPython** con concurrencia cooperativa asyncio.
 * **Sensores y actuadores:**
   * **JSN-SR04T:** Sensor ultrasónico impermeable de nivel de agua.
