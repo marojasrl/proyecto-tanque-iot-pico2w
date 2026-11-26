@@ -6,6 +6,8 @@ Diseño e implementación de un sistema IoT con Raspberry Pi Pico 2 W para la ge
 
 Sistema embebido IoT sobre la Raspberry Pi Pico 2 W que automatiza el llenado de un tanque elevado, protege la electrobomba y monitorea el consumo de agua en tiempo real, tanto de forma local (pantalla OLED) como remota (dashboard en Adafruit IO).
 
+###Video Demo: https://youtube.com/shorts/uTs8DoL77X4
+
 ### Problema que resuelve
 
 - **Desbordes de agua:** apaga automáticamente la bomba cuando el nivel alcanza el límite superior.
